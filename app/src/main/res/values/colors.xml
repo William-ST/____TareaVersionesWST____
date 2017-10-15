@@ -8,4 +8,7 @@
 
     <color name="rojo">#ff0000</color>
     <color name="azul">#9999ff</color>
+
+    <color name="background_button">#4CAF50</color>
+
 </resources>

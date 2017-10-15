@@ -27,7 +27,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="50dp"
-        android:textColor="@color/colorRed"/>
+        android:textColor="@color/colorRed"
+        android:background="@color/background_button"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -36,7 +37,8 @@
         app:layout_constraintTop_toBottomOf="@id/btn_hello"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="50dp"
+        android:background="@color/background_button"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -46,6 +48,6 @@
         app:layout_constraintLeft_toRightOf="@+id/btn_hello"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="50dp"
-        android:background="@color/azul"/>
+        android:background="@color/background_button"/>
 
 </android.support.constraint.ConstraintLayout>
